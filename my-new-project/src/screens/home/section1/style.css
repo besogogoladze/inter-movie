@@ -1,0 +1,14 @@
+.heigh-500 {
+    height: 500px !important;
+}
+.text-align-webkit-center {
+    text-align: -webkit-center;
+}
+.carousel-control-next-icon {
+    background-color: rebeccapurple;
+    border-radius: 50px;
+}
+.carousel-control-prev-icon {
+    background-color: rebeccapurple;
+    border-radius: 50px;
+}
