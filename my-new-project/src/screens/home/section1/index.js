@@ -28,6 +28,7 @@ function Section1({props}) {
     const objects = props.slice(0, size)
     return (
         <div id="homeSection1-1" className="w-100 mx-auto pt-5 pb-5">
+            asdgasdgsdgsdgsdg
             <div className="d-flex justify-content-around">
                 <div className="shadow-lg p-3 bg-dark rounded h-fit">
                     <div className="border border-3 border-success">
