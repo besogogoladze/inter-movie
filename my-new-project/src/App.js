@@ -7,7 +7,9 @@ import {
 } from "react-router-dom";
 import Header from './components/header';
 import Home from './screens/home';
-import About from './screens/about';
+import Movies from './screens/movies';
+import User from './screens/users';
+import Search from './components/header/search';
 
 function App() {
   return (
@@ -16,8 +18,9 @@ function App() {
         <Header/>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/user" />
+          <Route path="/MoviesList/:page?" exact component={Movies} />
+          <Route path="/Movies/:id" component={User} />
+          <Route path="/Search/:page?" exact component= {Search}/>
         </Switch>
       </Router>
     </>
